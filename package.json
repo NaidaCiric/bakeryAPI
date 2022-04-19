@@ -1,0 +1,34 @@
+{
+  "name": "bakeryapi",
+  "version": "1.0.0",
+  "description": "\"RESTful bakeryAPI\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "\"echo \\\"Error: no test specified\\\" && exit 1\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LABachler/SsiPPWeb.git#bakeryAPI"
+  },
+  "keywords": [
+    "\"RESTful\"",
+    "\"API\"",
+    "\"bakery\""
+  ],
+  "author": "\"Naida Ciric\"",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LABachler/SsiPPWeb/issues"
+  },
+  "homepage": "https://github.com/LABachler/SsiPPWeb/tree/bakeryAPI#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.17.3",
+    "mongoose": "^6.3.0",
+    "mysql": "^2.18.1"
+  },
+  "start": "nodemon server.js"
+}
